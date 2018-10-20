@@ -9,9 +9,8 @@ class Udacian():
 
     def print_udacian(self):
 
-        print(self.name, 'is enrolled in ', self.city, 'studying', self.nanodegree, ' in ', self.enrollment[2])
+        return self.name + " is enrolled in " + self.city + " studying " + self.nanodegree + " in " + self.enrollment[0] + " " + self.enrollment[1] + " with " + self.enrollment[2]
 
 Msg= Udacian('Ahmad', 'Riyadh', ('Sat', 'AM', 'MS. Lujain'), 'FSND', 'Ontrack')
 
-
-Msg.print_udacian()
+print(Msg.print_udacian())
